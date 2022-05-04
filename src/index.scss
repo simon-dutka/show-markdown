@@ -1,6 +1,12 @@
 // Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+$openSans: 'Open Sans', sans-serif;
 
 // Colors
+$darkBlue: #2d3239;
+$gray: #363d46;
+$white: #ffffff;
 
 //RWD 450px, 750px, 1050px, 1400px
 $breakpoints: (

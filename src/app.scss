@@ -21,7 +21,11 @@ a:hover {
 }
 
 body {
+    color: $white;
     font-size: 16px;
     font-weight: 400;
+    font-family: $openSans;
+
     scroll-behavior: smooth;
+    background: $gray;
 }
