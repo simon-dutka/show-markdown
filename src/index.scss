@@ -1,0 +1,17 @@
+// Fonts
+
+// Colors
+
+//RWD 450px, 750px, 1050px, 1400px
+$breakpoints: (
+    'sm': '28.125rem',
+    'md': '46.875rem',
+    'lg': '65.625rem',
+    'xl': '87.5rem',
+);
+
+@mixin breakpointMax($screen-size) {
+    @media (max-width: map-get($breakpoints, $screen-size)) {
+        @content;
+    }
+}
