@@ -1,0 +1,53 @@
+@import '../../index.scss';
+
+.markdown {
+    width: 41.25rem;
+    height: 25rem;
+
+    background: #363d46;
+    box-shadow: 0px 0px 0.8125rem rgba(0, 0, 0, 0.4);
+    border-radius: 0.625rem;
+
+    &__title {
+        font-size: 1.0625rem;
+        font-weight: 600;
+        letter-spacing: 0.03rem;
+
+        &-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 14%;
+
+            background: #303741;
+            border-radius: 0.625rem 0.625rem 0px 0px;
+        }
+    }
+
+    &__textarea {
+        color: $white;
+        font-family: $sourceCodePro;
+
+        width: 41.25rem;
+        height: 86%;
+
+        resize: none;
+        outline: none;
+        background: $grey;
+
+        padding: 1rem;
+
+        &::-webkit-scrollbar-thumb {
+            background: #2a3039;
+
+            &:hover {
+                background: #21262d;
+            }
+        }
+
+        &::-webkit-scrollbar {
+            width: 1em;
+        }
+    }
+}

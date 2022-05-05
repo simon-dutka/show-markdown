@@ -1,11 +1,13 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Source+Code+Pro&display=swap');
 
 $openSans: 'Open Sans', sans-serif;
+$sourceCodePro: 'Source Code Pro', monospace;
 
 // Colors
 $darkBlue: #2d3239;
-$gray: #363d46;
+$grey: #363d46;
+$darkGrey: #303741;
 $white: #ffffff;
 
 //RWD 450px, 750px, 1050px, 1400px
