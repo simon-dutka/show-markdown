@@ -21,14 +21,26 @@
         font-size: 1.25rem;
         font-weight: 700;
         letter-spacing: 0.07rem;
-
         text-align: center;
+
         margin: 0 auto;
+        padding-left: 3.4375rem;
+
+        @include breakpointMax(sm) {
+            font-size: 1.15rem;
+        }
     }
 
     &__link {
         font-size: 1.0625rem;
         font-weight: 400;
+        text-align: center;
         line-height: 1.4375rem;
+
+        width: 3.4375rem;
+
+        @include breakpointMax(sm) {
+            font-size: 0.93rem;
+        }
     }
 }

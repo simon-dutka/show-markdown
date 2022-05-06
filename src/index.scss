@@ -10,12 +10,11 @@ $grey: #363d46;
 $darkGrey: #303741;
 $white: #ffffff;
 
-//RWD 450px, 750px, 1050px, 1400px
+//RWD 450px, 650px, 1200px
 $breakpoints: (
     'sm': '28.125rem',
-    'md': '46.875rem',
-    'lg': '65.625rem',
-    'xl': '87.5rem',
+    'md': '40.625rem',
+    'lg': '75rem',
 );
 
 @mixin breakpointMax($screen-size) {
