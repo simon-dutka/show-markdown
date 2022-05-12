@@ -1,13 +1,18 @@
 import React from 'react';
 import './preview.scss';
 
-const Preview = ({ value }) => {
+const Preview = ({ preview, value }) => {
     return (
         <div className='preview'>
             <div className='preview__left'>
                 <div className='preview__title-container'>
                     <p className='preview__title'>Preview</p>
                 </div>
+
+                <div
+                    className='preview__content-container'
+                    dangerouslySetInnerHTML={preview}
+                ></div>
             </div>
 
             <div className='preview__right'>

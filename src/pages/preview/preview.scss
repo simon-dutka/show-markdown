@@ -64,6 +64,7 @@
         &-container {
             color: $white;
             font-family: $sourceCodePro;
+            word-wrap: break-word;
             cursor: auto;
 
             height: 21.5rem;
